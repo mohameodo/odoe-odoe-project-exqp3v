@@ -1,0 +1,52 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Leaflet Styles */
+.leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.leaflet-popup-content {
+    margin: 12px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.leaflet-popup-tip {
+    box-shadow: none;
+}
+
+.bus-marker-icon {
+    transition: all 2s linear;
+    text-align: center;
+    color: white;
+    width: 28px !important;
+    height: 28px !important;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    font-weight: bold;
+}
+
+/* Custom scrollbar for sidebar */
+#sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: #f1f5f9; 
+}
+ 
+#sidebar::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 4px;
+}
+
+#sidebar::-webkit-scrollbar-thumb:hover {
+  background: #64748b; 
+}
